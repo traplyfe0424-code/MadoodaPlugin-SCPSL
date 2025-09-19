@@ -33,6 +33,8 @@ public class MyFirstPlugin : Plugin<Config>
     {
         Singleton = this;
         CustomHandlersManager.RegisterEventsHandler(Events);
+        AudioClipStorage.LoadClip(@"C:\Users\Dallas\Documents\SCPSL\Development\MadoodaPlugin\AudioClips\Kirk.ogg");
+        
     }
 
     public override void Disable()

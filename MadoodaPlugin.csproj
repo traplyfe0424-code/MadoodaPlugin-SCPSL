@@ -41,6 +41,9 @@
         <Reference Include="Assembly-CSharp-firstpass">
           <HintPath>..\Dependencies\References Real\Assembly-CSharp-firstpass.dll</HintPath>
         </Reference>
+        <Reference Include="AudioPlayerApi">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\AudioPlayerApi.dll</HintPath>
+        </Reference>
         <Reference Include="LabApi">
           <HintPath>..\Dependencies\References Real\LabApi.dll</HintPath>
         </Reference>
@@ -53,12 +56,33 @@
         <Reference Include="NorthwoodLib">
           <HintPath>..\Dependencies\References Real\NorthwoodLib.dll</HintPath>
         </Reference>
+        <Reference Include="NVorbis">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\NVorbis.dll</HintPath>
+        </Reference>
         <Reference Include="Pooling">
           <HintPath>..\Dependencies\References Real\Pooling.dll</HintPath>
         </Reference>
+        <Reference Include="SharpCompress">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\SharpCompress.dll</HintPath>
+        </Reference>
         <Reference Include="System"/>
+        <Reference Include="System.Buffers">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\System.Buffers.dll</HintPath>
+        </Reference>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
+        <Reference Include="System.Memory">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\System.Memory.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Numerics.Vectors">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\System.Numerics.Vectors.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        </Reference>
+        <Reference Include="System.ValueTuple">
+          <HintPath>..\Dependencies\AudioPlayerApi\dependencies\System.ValueTuple.dll</HintPath>
+        </Reference>
         <Reference Include="System.Xml"/>
         <Reference Include="UnityEngine">
           <HintPath>..\Dependencies\References Real\UnityEngine.dll</HintPath>
