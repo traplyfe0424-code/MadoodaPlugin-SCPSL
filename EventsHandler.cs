@@ -1,7 +1,10 @@
 ﻿
 using System.Threading;
+using GameCore;
 using LabApi.Features.Wrappers;
 using UnityEngine;
+using LabApi.Features.Console;
+using Logger = UnityEngine.Logger;
 
 namespace MadoodaPlugin
 {
@@ -23,8 +26,8 @@ namespace MadoodaPlugin
 
             ev.Player.SendBroadcast(MyFirstPlugin.Singleton.Config.Message, MyFirstPlugin.Singleton.Config.Duration);
             //ev.Player.SendBroadcast("I'm off the kirkocet", for 6 seconds)
-
-
+            
+          LabApi.Features.Console.Logger.Info("Player changing radio range");
 
             AudioPlayer audioPlayer = AudioPlayer.CreateOrGet($"Player {ev.Player.Nickname}", onIntialCreation: (p) =>
             {

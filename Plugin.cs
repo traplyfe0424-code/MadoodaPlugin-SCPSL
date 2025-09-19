@@ -33,7 +33,7 @@ public class MyFirstPlugin : Plugin<Config>
     {
         Singleton = this;
         CustomHandlersManager.RegisterEventsHandler(Events);
-        AudioClipStorage.LoadClip(@"C:\Users\Dallas\Documents\SCPSL\Development\MadoodaPlugin\AudioClips\Kirk.ogg");
+        AudioClipStorage.LoadClip("../Sounds/Kirk.ogg", "Kirk");
         
     }
 
@@ -41,6 +41,7 @@ public class MyFirstPlugin : Plugin<Config>
     {
         Singleton = null!;
         CustomHandlersManager.UnregisterEventsHandler(Events);
+        
     }
 
 
